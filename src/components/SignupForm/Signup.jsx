@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import {
   Button,
   CssBaseline,
@@ -22,8 +22,8 @@ function Copyright(props) {
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://mc.com/">
+        medical central
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -55,7 +55,9 @@ export default function SignUp() {
             alignItems: "center",
           }}
         >
-          <Typography>LOGO</Typography>
+          <Typography component="h1" variant="h4">
+            LOGO
+          </Typography>
 
           <Typography component="h1" variant="h5">
             Sign up
