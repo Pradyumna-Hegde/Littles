@@ -1,8 +1,8 @@
-import Navbar from "./components/Navigation Bar/Navbar";
+import Sell from "./components/Forms/Sell";
 import "./zero.css";
 
 function App() {
-  return <Navbar />;
+  return <Sell />;
 }
 
 export default App;
