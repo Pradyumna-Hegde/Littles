@@ -1,7 +1,8 @@
-import Signup from "./components/SignupForm/Signup";
+import Navbar from "./components/Navigation Bar/Navbar";
+import "./zero.css";
 
 function App() {
-  return <Signup />;
+  return <Navbar />;
 }
 
 export default App;
