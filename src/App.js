@@ -1,5 +1,5 @@
 import Sell from "./components/Forms/Sell";
-import "./zero.css";
+// import "./zero.css";
 
 function App() {
   return <Sell />;
