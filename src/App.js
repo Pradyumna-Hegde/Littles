@@ -1,8 +1,8 @@
-import Sell from "./components/Forms/Sell";
+import Address from "./components/Forms/Address";
 // import "./zero.css";
 
 function App() {
-  return <Sell />;
+  return <Address />;
 }
 
 export default App;
